@@ -6,6 +6,10 @@
     width: 100%;
   }
   .desktop .div {
+    background-image:url('C:\Users\dell\Downloads\office.jpg');
+    background-size:cover;
+    background-position:center;
+    object-fit:cover;
     width: 1440px;
     height: 940px;
     position: relative;
