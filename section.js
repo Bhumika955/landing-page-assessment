@@ -1,0 +1,11 @@
+gsap.from(".services-title",{
+    y:-90,
+     delay:0.1,
+    duration:0.9,
+})
+gsap.from(".close",{
+    x:100,
+    delay:0.5,
+    duration:0.9,
+    stagger:0.3
+})

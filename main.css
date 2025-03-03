@@ -1,0 +1,235 @@
+.desktop {
+    background-color:rgb(213, 242, 179);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+  .desktop .div {
+    width: 1440px;
+    height: 940px;
+    position: relative;
+  }
+  
+  .desktop .logo {
+    position: absolute;
+    width: 98px;
+    height: 88px;
+    top: 18px;
+    left: 0;
+    object-fit: cover;
+  }
+  
+  .desktop .text-wrapper {
+    position: absolute;
+    width: 311px;
+    top: 33px;
+    left: 98px;
+    font-family: "Instrument Sans-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 48px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .desktop .frame {
+    position: absolute;
+    width: 81px;
+    height: 56px;
+    top: 34px;
+    left: 1279px;
+  }
+  
+  .desktop .get-your-startup {
+    position: absolute;
+    width: 1324px;
+    top: 329px;
+    left: 78px;
+    font-family: "Yaldevi Colombo SemiBold-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 96px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .desktop .p {
+    position: absolute;
+    width: 806px;
+    top: 469px;
+    left: 397px;
+    font-family: "Yaldevi Colombo SemiBold-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 40px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .desktop .div-wrapper {
+    display: flex;
+    width: 182px;
+    height: 53px;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 10px 16px;
+    position: absolute;
+    top: 44px;
+    left: 1048px;
+    background-color: #ffffff;
+    border-radius: 30px;
+    border: 1px solid;
+    border-color: #000000;
+  }
+  
+  .desktop .text-wrapper-2 {
+    position: relative;
+    width: fit-content;
+    font-family: "Instrument Sans-Bold", Helvetica;
+    font-weight: 700;
+    color: #000000;
+    font-size: 24px;
+    text-align: center;
+    letter-spacing: 0.24px;
+    line-height: normal;
+  }
+  
+  .desktop .frame-2 {
+    display: flex;
+    width: 182px;
+    height: 53px;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 10px 16px;
+    position: absolute;
+    top: 44px;
+    left: 827px;
+    background-color: #ffffff;
+    border-radius: 30px;
+    border: 1px solid;
+    border-color: #000000;
+  }
+  /* Original CSS code should be injected here */
+  
+  .desktop {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  .header {
+    display: flex;
+    align-items: center;
+    padding: 18px 0;
+  }
+  
+  .logo {
+    width: 98px;
+    height: 88px;
+    object-fit: cover;
+  }
+  
+  .company-name {
+    margin-left: 98px;
+    font-family: "Instrument Sans-Regular", Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    color: #000000;
+    font-size: 48px;
+  }
+  
+  .main-nav {
+    margin-left: auto;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .nav-button {
+    display: flex;
+    width: 182px;
+    height: 53px;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 16px;
+    background-color: #ffffff;
+    border-radius: 30px;
+    border: 1px solid #000000;
+    font-family: "Instrument Sans-Bold", Helvetica, Arial, sans-serif;
+    font-weight: 700;
+    color: #000000;
+    font-size: 24px;
+    text-align: center;
+    letter-spacing: 0.24px;
+    text-decoration: none;
+  }
+  
+  .menu-icon {
+    width: 81px;
+    height: 56px;
+    margin-left: 20px;
+  }
+  
+  .main-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1;
+    padding: 0 20px;
+  }
+  
+  .main-heading {
+    font-family: "Yaldevi Colombo SemiBold-Regular", Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    color: #000000;
+    font-size: 96px;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .sub-heading {
+    font-family: "Yaldevi Colombo SemiBold-Regular", Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    color: #000000;
+    font-size: 40px;
+    text-align: center;
+    max-width: 806px;
+  }
+  
+  @media (max-width: 440px) {
+   
+    .header {
+      flex-wrap: wrap;
+      justify-content: space-between;
+    }
+    .company-name {
+      margin-left: 5px;
+      font-size: 20px;
+      z-index: 1;
+      font-weight: 700;
+    }
+    .main-nav {
+      order: 3;
+      width: 100%;
+      justify-content: center;
+      margin-top: 20px;
+    }
+  
+    .main-heading {
+      font-size: 30px;
+    }
+    .nav-button{
+      margin-top: 25px;
+      font-size:20px;
+     width:120px;
+     height:70px;
+    }
+    .sub-heading {
+      font-size: 24px;
+    }
+  }
+  

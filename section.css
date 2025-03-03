@@ -1,0 +1,143 @@
+.desktop {
+    background-color: rgb(213, 242, 179); 
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+  }
+  .close{
+    position: absolute;
+      width: 50px;
+      height: 50px;
+      top: 20px;
+      right: 50px;
+  }
+  
+  .desktop .div {
+    background-color: rgb(213, 242, 179);
+    overflow: hidden;
+    width: 1440px;
+    height: 900px;
+    position: relative;
+  }
+  
+  
+  /* Original CSS code should be injected here */
+  
+  .desktop {
+    background-color: rgb(213, 242, 179);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .services-section {
+    background-color: rgb(213, 242, 179);
+    overflow: hidden;
+   /* width: 1440px;
+    height: 940px;  */
+    height:100%;
+    width:100%;
+    position: relative;
+  }
+  
+  .services-title {
+    position: relative;
+    padding-left: 550px;
+    font-family: "Instrument Sans-Bold", Helvetica;
+    font-weight: 700;
+    color: #000000;
+    font-size: 80px;
+    /*text-align:left;   */
+    align-items: center;
+    line-height: normal;
+    
+  }
+  
+  .services-list {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    text-align: center;
+    position: absolute;
+    top: 188px;
+    left: 200px;
+  }
+  .service-item {
+   position: relative;
+    text-align: center;
+  flex-direction: column;
+  align-items: center;
+  justify-content:center;
+  width: 940px;
+  height: 150px;
+  left: 258px;
+  top: -120px;
+  }
+  
+  .service-title {
+    font-family: "Instrument Sans-Bold", Helvetica;
+    font-weight: 700;
+    color: #3ca3f2;
+    font-size: 42px;
+    letter-spacing: 0.40px;
+    line-height: 3px;
+    margin-bottom: 10px;
+    margin-top: 0%;
+  }
+  
+  .service-description {
+    font-family: "Instrument Sans-Bold", Helvetica;
+    font-weight: 540;
+    color: #000000;
+    font-size: 30px;
+    letter-spacing: 0.1px;
+    line-height: 44px;
+    max-width: 960px;
+    margin: 20px 1px;
+  }
+  .logo {
+    width: 38px;
+    height: 38px;
+    position: relative;
+   
+  }
+  @media (max-width: 1440px) {
+    .services-section {
+      width: 100%;
+      height: auto;
+    }
+  
+    .services-list {
+      position: static;
+      margin-top: 150px;
+      padding: 0 20px;
+    }
+  
+    .services-title {
+      position: static;
+      width: 100%;
+      margin-top: 38px;
+    }
+  }
+  
+  @media (max-width: 440px) {
+    .services-title {
+      font-size: 64px;
+      left: auto;
+    }
+  
+    .service-title {
+      font-size: 36px;
+    }
+
+  
+    .service-description {
+      font-size: 20px;
+
+    }
+  }
+  
